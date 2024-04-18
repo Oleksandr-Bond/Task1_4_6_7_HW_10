@@ -6,7 +6,7 @@
     6  echo text_ignore.txt > .gitignore
     7  git status 
     8  git add .
-    9  git commit -m "files were added"
+   
    10  touch main_test.txt
    11  git add .
    12  git commit -m "main_test.txt was added"
@@ -16,7 +16,7 @@
    16  git commit -m "develop_test.txt was added"
    17  echo someText > develop_test.txt
    18  git status 
-   19  git add .
+
    20  git commit -m "develop_test.txt was changed"
    21  git checkout main
    22  git merge develop
